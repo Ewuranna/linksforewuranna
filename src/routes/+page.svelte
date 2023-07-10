@@ -1,10 +1,16 @@
+
+<script>
+  import profile from '/src/images/me.jpg';
+</script>
+
+
 <div class="min-h-screen flex items-center justify-center bg-black">
 
     <div class="bg-white p-8 rounded-lg w-full max-w-md"> 
 
        <div class=" flex flex-col items-center mb-6 rounded-md">
         <!-- svelte-ignore a11y-img-redundant-alt -->
-        <img src="src/images/me.jpg" alt="my profile picture" class="w-24 h-24 rounded-full object-cover drop-shadow-lg" >
+        <img src={profile} alt="my profile picture" class="w-24 h-24 rounded-full object-cover drop-shadow-lg" >
         <h1 class="text-2xl font-semibold my-5"> Ewuranna Smith-Quayson</h1>
         <p class="text-center text-gray-600 mb-2"> Digital Technology Specialist | Passionate about driving innovation and leveraging technology to create positive change</p>
         
